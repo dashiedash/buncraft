@@ -1,43 +1,51 @@
-html {
-  scroll-behavior: smooth;
-}
+/* Fonts - start */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"); /* Roboto Condensed */
+/* Fonts - end */
 
+/* Global Styles - start */
 * {
   margin: 0;
-  padding: 0;
 }
-.hero-section{
-    margin-top: 46px !important;
-    background-image: url("https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F736x%2Fc0%2F31%2F46%2Fc031467975ab3388761f608682a8f2eb.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F628463322998444265%2F&tbnid=Ywvmm78ggwC4sM&vet=12ahUKEwj41MOK-bb2AhVGQ2wGHVxlC74QMygAegUIARDAAQ..i&docid=llvc4drWlzoGVM&w=639&h=641&q=pastel%20cyan&hl=en&authuser=0&ved=2ahUKEwj41MOK-bb2AhVGQ2wGHVxlC74QMygAegUIARDAAQ");
-    background-repeat: no-repeat;
-    box-sizing: border-box;
+/* Global Styles - end */
+
+/* Navigation Bar - start */
+nav {
+  display: flex;
+  position: sticky;
+  top: 0px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto Condensed", "Arial Condensed", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: rgb(247, 147, 197);
+  overflow: hidden;
 }
-.hero-section-main{
-    background-color: rgba(140,193,222, 0.7);
-    display: flex;
-    justify-content: center;    
+nav,
+nav a {
+  height: 2rem;
 }
-.hero-section-into-text{
-    padding: 40px ;
-    width: 90%;;
-    margin-bottom: 30px;
-    border:2px solid rgb(213,164,188) !important;
-    border-radius:30px !important;    
+nav img {
+  max-height: 100%;
 }
-.hero-section-into-text h1{
-    font-size: 60px !important;
-    letter-spacing: 2px;
-    font-weight: 800;
-    font-family: sans-serif;    
+nav ul {
+  display: flex;
+  max-width: 100%;
+  list-style-type: none;
 }
-.hero-section-into-text p{
-    width: 40%;
-    letter-spacing: 1px;
+nav ul li {
+  padding: 0.5rem;
+  background-color: rgb(247, 191, 219);
 }
-.section-text-header{
-    margin: 80px 0px!important;
-    border-left:6px solid rgba(140,193,222, 0.7);
-    padding-left:50px !important;   
-    text-transform: uppercase;
-    font-weight: 600;    
+nav ul li:hover {
+  background-color: rgb(255, 157, 205);
 }
+
+/* Navigation Bar - end */
+
+/* Header - start */
+/* Header - end */
+
+/* Main - start */
+/* Main - end */
